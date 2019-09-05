@@ -1,12 +1,12 @@
-package subscription
+package account
 
 import (
-	"github.com/stlswm/go_tencent/subscription"
+	"github.com/stlswm/go_tencent/subscription/account"
 	"testing"
 )
 
 func TestGetToken(t *testing.T) {
-	err, token := subscription.GetToken("", "")
+	err, token := account.GetToken("", "")
 	if err != nil {
 		t.Error(err)
 	} else {

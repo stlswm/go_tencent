@@ -1,14 +1,11 @@
-package subscription
+package account
 
 import (
 	"encoding/json"
 	"errors"
-	"github.com/stlswm/go_tencent/subscription/response"
+	"github.com/stlswm/go_tencent/subscription/account/response"
 	"github.com/stlswm/go_tencent/tool"
 )
-
-type TokenResponse struct {
-}
 
 // 获取token
 func GetToken(appId string, secret string) (error, *response.Token) {

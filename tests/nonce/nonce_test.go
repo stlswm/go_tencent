@@ -1,7 +1,7 @@
-package pay
+package nonce
 
 import (
-	"github.com/stlswm/go_tencent/pay/nonce"
+	"github.com/stlswm/go_tencent/nonce"
 	"log"
 	"testing"
 )
